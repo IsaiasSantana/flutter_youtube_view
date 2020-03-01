@@ -386,7 +386,6 @@
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 4U74TF5N3C;
 				ENABLE_BITCODE = NO;
-				FLUTTER_ROOT = /Users/faiyyazkhatri/StudioProjects/flutter;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
@@ -520,7 +519,6 @@
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 4U74TF5N3C;
 				ENABLE_BITCODE = NO;
-				FLUTTER_ROOT = /Users/faiyyazkhatri/StudioProjects/flutter;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
@@ -554,7 +552,6 @@
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 4U74TF5N3C;
 				ENABLE_BITCODE = NO;
-				FLUTTER_ROOT = /Users/faiyyazkhatri/StudioProjects/flutter;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
