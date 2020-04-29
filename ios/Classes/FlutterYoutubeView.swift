@@ -128,17 +128,17 @@ class FlutterYoutubeView: NSObject, FlutterPlatformView {
         var playerVars: [VideoEmbedParameter]
         if (showUI) {
             playerVars = [
-                VideoEmbedParameter.playsInline(true),
+                VideoEmbedParameter.playsInline(false),
                 VideoEmbedParameter.videoID(videoId),
                 VideoEmbedParameter.loopVideo(false),
                 VideoEmbedParameter.showRelatedVideo(false),
-                VideoEmbedParameter.showInfo(true),
+                VideoEmbedParameter.showInfo(false),
                 VideoEmbedParameter.autoplay(autoPlay),
                 VideoEmbedParameter.registerStartTimeAt(Int(startSeconds))
             ]
         } else {
             playerVars = [
-                VideoEmbedParameter.playsInline(true),
+                VideoEmbedParameter.playsInline(false),
                 VideoEmbedParameter.videoID(videoId),
                 VideoEmbedParameter.loopVideo(false),
                 VideoEmbedParameter.showRelatedVideo(false),
