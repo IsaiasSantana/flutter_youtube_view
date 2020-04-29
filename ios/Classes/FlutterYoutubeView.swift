@@ -134,7 +134,8 @@ class FlutterYoutubeView: NSObject, FlutterPlatformView {
                 VideoEmbedParameter.showRelatedVideo(false),
                 VideoEmbedParameter.showInfo(false),
                 VideoEmbedParameter.autoplay(autoPlay),
-                VideoEmbedParameter.registerStartTimeAt(Int(startSeconds))
+                VideoEmbedParameter.registerStartTimeAt(Int(startSeconds)),
+                VideoEmbedParameter.showFullScreenButton(false)
             ]
         } else {
             playerVars = [
@@ -145,7 +146,8 @@ class FlutterYoutubeView: NSObject, FlutterPlatformView {
                 VideoEmbedParameter.showInfo(false),
                 VideoEmbedParameter.showControls(VideoControlAppearance.hidden),
                 VideoEmbedParameter.autoplay(autoPlay),
-                VideoEmbedParameter.registerStartTimeAt(Int(startSeconds))
+                VideoEmbedParameter.registerStartTimeAt(Int(startSeconds)),
+                VideoEmbedParameter.showFullScreenButton(false)
             ]
         }
         self.player = YTSwiftyPlayer(playerVars: playerVars)
